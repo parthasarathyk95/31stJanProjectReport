@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="FailedSuite">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.sampletestng.Example12hello">
+      	<methods>
+      		<include name="tc11"/> 
+      	</methods>
+      </class> <!-- org.sampletestng.Example12hello -->
+      <class name="org.sampletestng.Example12model">
+       <methods>
+      		<include name ="tc2"/> 
+      	</methods>
+      </class> <!-- org.sampletestng.Example12model -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
