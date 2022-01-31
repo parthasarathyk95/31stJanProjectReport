@@ -65,5 +65,9 @@ public class BaseClass {
 //time function
 	public static void hold(int time) throws InterruptedException {
 		Thread.sleep(time);
-	}	
+	}
+// newly added function
+	private void new_function() {
+		System.out.println("new_function");
+	}
 }
