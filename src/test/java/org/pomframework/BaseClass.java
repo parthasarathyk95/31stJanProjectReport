@@ -122,4 +122,8 @@ public class BaseClass {
 	private void new_function() {
 		System.out.println("new_function");
 	}
+	// today_method 
+	private void today_method() {
+		System.out.println("today_function");
+	}
 }
