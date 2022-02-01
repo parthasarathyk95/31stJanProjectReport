@@ -78,7 +78,7 @@ public class BaseClass {
 	public static void hold(int time) throws InterruptedException {
 		Thread.sleep(time);
 	}
-	// Datadriven excel base class function
+	// Datadriven readExcel method get data from excel sheet
 	public static String readExcel(int rowNo,int cellNo) throws IOException {
 		File f = new File("C:\\Users\\intel\\eclipse-workspace\\Examplemaven\\excel\\testdata.xlsx");
 		FileInputStream fin = new FileInputStream(f);
